@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32407.343
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Ders(ConsoleIO)", "01.Ders(ConsoleIO)\01.Ders(ConsoleIO).csproj", "{F6A8137D-D20F-4C8D-A964-3AABDC80DBA4}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Ders(2dArray)", "08.Ders(2dArray)\08.Ders(2dArray).csproj", "{52150AA1-8CDB-4521-8E3E-C6695C1B08A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Ders(Methods)", "09.Ders(Methods)\09.Ders(Methods).csproj", "{69E8B8E7-93D3-4CFF-B202-426541E5F7E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Ders(Classes)", "10.Ders(Classes)\10.Ders(Classes).csproj", "{D6271EF3-CCF3-4853-A07D-B8F677F13E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Ders(Encapsualtion)", "11.Ders(Encapsualtion)\11.Ders(Encapsualtion).csproj", "{7BD82415-D81F-443A-A134-1ACAC3F3D501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{69E8B8E7-93D3-4CFF-B202-426541E5F7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E8B8E7-93D3-4CFF-B202-426541E5F7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E8B8E7-93D3-4CFF-B202-426541E5F7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6271EF3-CCF3-4853-A07D-B8F677F13E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6271EF3-CCF3-4853-A07D-B8F677F13E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6271EF3-CCF3-4853-A07D-B8F677F13E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6271EF3-CCF3-4853-A07D-B8F677F13E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD82415-D81F-443A-A134-1ACAC3F3D501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD82415-D81F-443A-A134-1ACAC3F3D501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD82415-D81F-443A-A134-1ACAC3F3D501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD82415-D81F-443A-A134-1ACAC3F3D501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
