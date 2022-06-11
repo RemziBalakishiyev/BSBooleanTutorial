@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6A8137D-D20F-4C8D-A964-3AABDC80DBA4}</ProjectGuid>
+    <ProjectGuid>{4DBDEF7F-E750-418C-8745-BC1590A20B5D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Ders_ConsoleIO_</RootNamespace>
-    <AssemblyName>01.Ders%28ConsoleIO%29</AssemblyName>
+    <RootNamespace>_15.Ders_SpecialElements_</RootNamespace>
+    <AssemblyName>15.Ders%28SpecialElements%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\15.Ders%28SpecialElements%29\15.Ders%28SpecialElements%29.csproj">
-      <Project>{4DBDEF7F-E750-418C-8745-BC1590A20B5D}</Project>
-      <Name>15.Ders%28SpecialElements%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

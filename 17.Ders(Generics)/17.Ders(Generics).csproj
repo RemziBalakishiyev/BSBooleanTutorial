@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6A8137D-D20F-4C8D-A964-3AABDC80DBA4}</ProjectGuid>
+    <ProjectGuid>{74AFC4D6-4C7C-4911-BFAF-EE16F4B31D0C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Ders_ConsoleIO_</RootNamespace>
-    <AssemblyName>01.Ders%28ConsoleIO%29</AssemblyName>
+    <RootNamespace>_17.Ders_Generics_</RootNamespace>
+    <AssemblyName>17.Ders%28Generics%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enitty\BaseEntity.cs" />
+    <Compile Include="Enitty\Student.cs" />
+    <Compile Include="Enitty\Teacher.cs" />
+    <Compile Include="Interfaces\IGeneric.cs" />
+    <Compile Include="Interfaces\IStudent.cs" />
+    <Compile Include="Interfaces\ITeacher.cs" />
+    <Compile Include="Operation\StudentManager.cs" />
+    <Compile Include="Operation\TeacherManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\15.Ders%28SpecialElements%29\15.Ders%28SpecialElements%29.csproj">
-      <Project>{4DBDEF7F-E750-418C-8745-BC1590A20B5D}</Project>
-      <Name>15.Ders%28SpecialElements%29</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

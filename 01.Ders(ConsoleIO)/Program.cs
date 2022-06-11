@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _15.Ders_SpecialElements_;
+using System;
 namespace _01.Ders_ConsoleIO_
 {
     internal class Program
@@ -11,6 +12,9 @@ namespace _01.Ders_ConsoleIO_
                 comment qisa yolu CTRL + K + C
              */
 
+
+            Employee employee = new Employee();
+           
             //Bu hissede WriteLine yazilir
             Console.WriteLine("Hello world");
             Console.WriteLine("Bu gun bizim ilk dersimizdir");

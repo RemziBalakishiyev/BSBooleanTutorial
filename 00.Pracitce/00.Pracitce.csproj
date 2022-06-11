@@ -43,8 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractPractice\DatabaseManager.cs" />
+    <Compile Include="CollectionPractice\Book.cs" />
+    <Compile Include="CollectionPractice\BookOperation.cs" />
+    <Compile Include="CollectionPractice\Customer.cs" />
+    <Compile Include="CollectionPractice\IBook.cs" />
+    <Compile Include="CollectionPractice\ICustomer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="FullTimeEmployee.cs" />
+    <Compile Include="HomeWork\Cevre.cs" />
+    <Compile Include="HomeWork\Dordbucaq.cs" />
+    <Compile Include="HomeWork\Teacher.cs" />
+    <Compile Include="HomeWork\Ucbucaq.cs" />
+    <Compile Include="InterfacePractice\Computer.cs" />
+    <Compile Include="InterfacePractice\IComputer.cs" />
+    <Compile Include="InterfacePractice\IPhone.cs" />
+    <Compile Include="InterfacePractice\IProduct.cs" />
+    <Compile Include="InterfacePractice\IWatch.cs" />
+    <Compile Include="InterfacePractice\Phones.cs" />
+    <Compile Include="InterfacePractice\Product.cs" />
+    <Compile Include="InterfacePractice\ProductEntity.cs" />
+    <Compile Include="InterfacePractice\Watch.cs" />
+    <Compile Include="KeywordsPractice\Book.cs" />
+    <Compile Include="KeywordsPractice\Helper.cs" />
+    <Compile Include="KeywordsPractice\IOperation.cs" />
+    <Compile Include="KeywordsPractice\Operation.cs" />
+    <Compile Include="KeywordsPractice\Writer.cs" />
     <Compile Include="PartTimeEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
